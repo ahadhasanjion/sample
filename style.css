@@ -1,0 +1,204 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container{
+    max-width: 90vw;
+    margin: 0 auto;
+    padding:0  2.5rem;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+
+}
+/*==========================================================================
+                            NAVBAR PART START
+========================================================================= */
+.navbar{
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #373737;
+}
+.navbar__profile{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__message__icon{
+    width: 100%;
+}
+
+.navbar__profile img{
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 50%;
+}
+.navbar__menu ul{
+    list-style: none;
+    display: flex;
+}
+.navbar__menu ul li{
+    margin: 0 1.2rem;
+    font-size: 1rem;
+    transition: all linear .3s;
+}
+.navbar__menu ul li:hover{
+    color: #FFB954;
+    cursor: pointer;
+}
+/*==========================================================================
+                            NAVBAR PART END
+========================================================================= */
+
+/*==========================================================================
+                            INFOS PART START
+========================================================================= */
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3.75rem 0;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    border: 1px solid #EEEEEE;
+    border-radius: 2rem;
+    padding:2rem 3.7rem;
+    gap: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.info__head{
+    width: 3.7rem;
+    height: 3.7rem;
+    line-height: 3.7rem;
+    border-radius: 50%;
+    border: 1px solid #FFC265;
+    color: #FFC265;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+.info__sub{
+    width: 5rem;
+    height: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 1.2rem;
+    border: 1px solid #32B7E0;
+    color: #32B7E0;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.info__currency{
+    color: #FFC265;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.info__year{
+    color: #838383;
+    font-size: medium;
+    font-weight: 400;
+}
+.info__year span{
+    color: #373737;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.info__date__time{
+    color: #646464;
+    font-weight: 400;
+}
+/*==========================================================================
+                            INFOS PART END
+========================================================================= */
+
+/*==========================================================================
+                            FOOTER PART START
+========================================================================= */
+
+footer{
+    display: flex;
+    border-top: 2px solid #FE9900;
+    background-color: #373737;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+.footer__left__side{
+    padding: 5rem 0;
+    cursor: pointer;
+}
+
+.footer__right__side{
+    display: flex;
+    gap: 3.7rem;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+
+.footer__col__head{
+    color: #FE9900;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 2px solid #FE9900;
+    text-align: center;
+}
+
+.footer__col ul li{
+color: white;
+margin-top: 1rem;
+cursor: pointer;
+transition: all linear .3s;
+}
+.footer__col ul li:hover{
+    color: #FFB954;
+    }
+/*==========================================================================
+                            FOOTER PART END
+========================================================================= */
